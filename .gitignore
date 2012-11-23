@@ -1,0 +1,17 @@
+contiki/ErO2-App.c~
+contiki/Makefile~
+contiki/README.md~
+contiki/ero2client.c~
+contiki/ero2client.h~
+contiki/ero2manager.c~
+contiki/ero2manager.h~
+contiki/ero2registry.c~
+contiki/ero2registry.h~
+contiki/ero2service.c~
+contiki/ero2service.h~
+contiki/project-conf.h~
+java/src/ch/unige/tcs/ero2/registry/ErO2Registry.java~
+java/src/ch/unige/tcs/ero2/registry/ErO2Service.java~
+java/src/ch/unige/tcs/ero2/resource/ServiceRegistryResource.java~
+java/src/ch/unige/tcs/ero2/server/ErO2Server.java~
+
