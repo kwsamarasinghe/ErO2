@@ -1,3 +1,10 @@
+/**
+* \file
+* 		ErO2 example application with a simple service implementation
+* \author
+* 		Kasun Samarasinghe <Kasun.Wijesiriwardana@unige.ch>
+*/
+
 #include "ero2manager.h"
 #define SERVICE_POINTER(sp) #sp
 

@@ -30,7 +30,7 @@
 
 /**
  * \file
- *      Common service implementation
+ *      Example service implementation
  * \author
  *      Kasun Samarasinghe <Kasun.Wijesiriwardana@unige.ch>
  */
@@ -57,7 +57,6 @@ struct ero2_service helloworld_service;
 RESOURCE(helloworld, METHOD_GET, "hello", "title=\"Hello world: ?len=0..\";rt=\"Text\"");
 void helloworld_handler(void* request, void* response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset)
 {
-	printf("calling hello\n");
   const char *len = NULL;
   char const * const message = "Hello World";
   memcpy(buffer, message, 10);

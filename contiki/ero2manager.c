@@ -162,7 +162,6 @@ void service_handler(void* response)
 					set_parent(response_payload);
 					ero2_state=REGISTERED;
 					printf("process changed status\n");
-					//process_post(&ero2_process,STATE_CHANGED,NULL);
 				}else{
 					PRINTF("Error registration..\n");
 				}		
@@ -185,7 +184,6 @@ void service_handler(void* response)
 	}else{
 		PRINTF("NULL response\n");
 	}
-	//process_start(&ero2_process,NULL);
 }
 
 int parse_response(char* response_payload)
@@ -204,7 +202,4 @@ void  serialize_address(uip_ipaddr_t* addr,char* addrstring)
 	sprintf(addrstring,"[%02x%02x:%02x%02x:%02x%02x:%02x%02x:%02x%02x:%02x%02x:%02x%02x:%02x%02x]", ((uint8_t *)addr)[0], ((uint8_t *)addr)[1], 	((uint8_t *)addr)[2], ((uint8_t *)addr)[3], ((uint8_t *)addr)[4], ((uint8_t *)addr)[5], ((uint8_t *)addr)[6], ((uint8_t *)addr)[7], ((uint8_t 	*)addr)[8], ((uint8_t *)addr)[9], ((uint8_t *)addr)[10], ((uint8_t *)addr)[11], ((uint8_t *)addr)[12], ((uint8_t *)addr)[13], ((uint8_t *)addr)[14], ((uint8_t *)addr)[15]);
 }
 
-void get_sensorreadings(char* request_payload)
-{
 
-}

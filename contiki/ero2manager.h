@@ -52,8 +52,6 @@ char* service_pointer;
 int ero2_state;
 
 void start_ero2_service(char* sp);
-//void register_instance(struct service_instance);
-//void start_manager();	
 void service_handler(void* response);
 
 #endif

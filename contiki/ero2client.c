@@ -18,7 +18,6 @@ PROCESS_THREAD(ero2_client_process, ev, data){
 	coap_receiver_init();
 	coap_init_message(request, COAP_TYPE_CON, request_service->request_method, 0 );
   coap_set_header_uri_path(request, request_service->uri);
-	printf("pay %s\n",request_payload);
 	char* p=(char*)request_payload;
   coap_set_payload(request, (uint8_t *)request_payload, 50);
 	
