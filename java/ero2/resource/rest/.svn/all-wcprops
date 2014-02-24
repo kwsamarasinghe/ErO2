@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/users/wijesiri/Syndesy/!svn/ver/17/ErO2-v1.5/src/ero2/resource/rest
+END
+ServiceMonitorResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/users/wijesiri/Syndesy/!svn/ver/17/ErO2-v1.5/src/ero2/resource/rest/ServiceMonitorResource.java
+END
+ServiceRegistryResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/users/wijesiri/Syndesy/!svn/ver/17/ErO2-v1.5/src/ero2/resource/rest/ServiceRegistryResource.java
+END
+ErO2RestMediatorResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/users/wijesiri/Syndesy/!svn/ver/17/ErO2-v1.5/src/ero2/resource/rest/ErO2RestMediatorResource.java
+END
+ErO2RestMonitorResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/users/wijesiri/Syndesy/!svn/ver/17/ErO2-v1.5/src/ero2/resource/rest/ErO2RestMonitorResource.java
+END
+ErO2RestRegistryResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/users/wijesiri/Syndesy/!svn/ver/17/ErO2-v1.5/src/ero2/resource/rest/ErO2RestRegistryResource.java
+END
+ErO2RestProfileResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/users/wijesiri/Syndesy/!svn/ver/17/ErO2-v1.5/src/ero2/resource/rest/ErO2RestProfileResource.java
+END
