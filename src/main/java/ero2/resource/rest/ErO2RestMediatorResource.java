@@ -18,7 +18,7 @@ import ero2.core.ErO2Service;
 import ero2.identification.ErO2UserProfile;
 import ero2.transport.coap.COAPClient;
 
-public class ErO2RestMediatorResource extends ServerResource {
+public class ErO2RestMediatorResource {
 
 	ErO2Registry ERO2REGISTRY;
 	Connection conn;
